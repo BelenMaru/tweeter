@@ -1,0 +1,90 @@
+/* . nav {
+  height: 120px;
+  border: 1px solid red;
+  background-color: #4056a1;
+  color: #fff;
+  padding: 1.5em;
+  display: flex;
+  justify-content: space-between; */
+
+/* position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1; */
+
+/* .nav-details {
+  position: fixed;
+  top: 0;
+  width: 100%;
+} */
+.nav > span {
+  font-family: "Bungee", cursive;
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+  height: 120px;
+  /* border: 1px solid red; */
+  /* background-color: #4056a1; */
+  color: #fff;
+  padding: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+/* border: 1px solid; */
+
+.text-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-right: 40px;
+}
+
+.nav {
+  display: flex;
+  /* justify-content: flex-end; */
+  flex: 1;
+}
+
+i.fas.fa-angle-double-down {
+  font-size: 24px;
+  color: red;
+  animation: MoveUpDown 3s linear infinite;
+  display: flex;
+  justify-content: center;
+  /* position: absolute; */
+  /* right: 0;
+  bottom: 0;
+  color: red;
+  padding-right: 4.5em; */
+}
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+}
+
+/* fas fa-angle-double-down {
+  color: red;
+  display: flex;
+  justify-content: center;
+} */
+
+/* fa, .fas a:hover: {
+  display: flex;
+  justify-content: center;
+  color: red;
+} */
+.nav {
+  height: 120px;
+  background-color: #c79f00;
+  background-image: (
+    "https://www.transparenttextures.com/patterns/asfalt-dark.png%22"
+  );
+}
