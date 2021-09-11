@@ -63,13 +63,20 @@ $(document).ready(function () {
     `;
     return $tweet;
   }
-  
-  
  
   // renderTweets(data);
 
   $('form').submit(function(event) {
     event.preventDefault();
+    if ($('textare#tweet-text').val());
+    const tweetText = $('textarea#tweet-text').val();
+    // console.log(tweetText);
+    //  console.log(tweetText);
+    if (tweetText.length > 140)  {
+      alert();
+      return;
+    }
+    
     $.ajax({
       url: '/tweets', // Api url
        method: 'POST',

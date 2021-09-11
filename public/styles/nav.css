@@ -17,14 +17,23 @@
   top: 0;
   width: 100%;
 } */
+
+.nav {
+  display: flex;
+  flex: 1;
+  height: 120px;
+  background-color: #c79f00;
+  background-image: (
+    "https://www.transparenttextures.com/patterns/asfalt-dark.png%22"
+  );
+}
+
 .nav > span {
   font-family: "Bungee", cursive;
   display: flex;
   justify-content: flex-end;
   flex: 1;
   height: 120px;
-  /* border: 1px solid red; */
-  /* background-color: #4056a1; */
   color: #fff;
   padding: 1.5em;
   display: flex;
@@ -32,6 +41,9 @@
   z-index: 1;
 }
 
+span {
+  color: #fff;
+}
 /* border: 1px solid; */
 
 .text-right {
@@ -40,13 +52,13 @@
   justify-content: center;
   align-content: center;
   margin-right: 40px;
+  color: #fff;
 }
 
-.nav {
+/* .nav {
   display: flex;
-  /* justify-content: flex-end; */
   flex: 1;
-}
+} */
 
 i.fas.fa-angle-double-down {
   font-size: 24px;
@@ -54,11 +66,6 @@ i.fas.fa-angle-double-down {
   animation: MoveUpDown 3s linear infinite;
   display: flex;
   justify-content: center;
-  /* position: absolute; */
-  /* right: 0;
-  bottom: 0;
-  color: red;
-  padding-right: 4.5em; */
 }
 @keyframes MoveUpDown {
   0%,
@@ -81,10 +88,3 @@ i.fas.fa-angle-double-down {
   justify-content: center;
   color: red;
 } */
-.nav {
-  height: 120px;
-  background-color: #c79f00;
-  background-image: (
-    "https://www.transparenttextures.com/patterns/asfalt-dark.png%22"
-  );
-}

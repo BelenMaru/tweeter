@@ -1,7 +1,6 @@
 .main-header {
   height: 400px;
   width: 100%;
-  /* border: 1px solid green; */
   background-color: #c79f00;
   background-image: (
     "https://www.transparenttextures.com/patterns/asfalt-dark.png%22"
@@ -12,23 +11,19 @@
   align-items: center;
 }
 
-@media only screen and (min-width: 1024px) {
-  /* .second-child {
-      display: flex;
-      flex-direction: row;
-  } */
+.header-text {
+  color: #fff;
+}
 
-  /* .main-header {
-    width: 30%;
-    margin: 60px;
-    margin-right: 100px;
-  }  */
+@media only screen and (min-width: 1024px) {
   .nav {
     background-color: #4056a1;
   }
-
-  /* .container {
-    margin-right: 20px;
-    margin-top: 50px;
-  } */
 }
+
+
+/* main-header {
+    width: 45%;
+    margin: 60px;
+    margin-right: 100px;
+  }  */
