@@ -28,3 +28,18 @@ body {
 label {
   margin-top: 20px;
 }
+
+.app-container {
+  display: flex;
+  margin: 2em;
+}
+
+.container{
+  min-width: 60%;
+}
+
+@media only screen and (max-width: 768px) {
+  .app-container {
+    flex-direction: column;
+  }
+}

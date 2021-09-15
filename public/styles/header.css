@@ -1,5 +1,4 @@
 .main-header {
-  height: 400px;
   width: 100%;
   background-color: #c79f00;
   background-image: (
@@ -9,21 +8,24 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  margin: 1em 2em 2em 0.5em;
 }
 
 .header-text {
   color: #fff;
 }
 
-@media only screen and (min-width: 1024px) {
-  .nav {
-    background-color: #4056a1;
-  }
+.header-img {
+  min-width: 100px;
+  width: 80%;
+}
+.header-img img {
+  width: 100%;
 }
 
-
-/* main-header {
-    width: 45%;
-    margin: 60px;
-    margin-right: 100px;
-  }  */
+@media only screen and (max-width: 768px) {
+  .main-header {
+    margin: 0;
+  }
+}

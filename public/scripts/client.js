@@ -43,8 +43,10 @@ $(document).ready(function () {
     const $tweet = `
       <article class="tweet-container">
         <header class="tweet-header">  
-          <div class="identity">    
-            <img src="${obj.user.avatars}">
+          <div class="identity"> 
+            <div class="identity-img"> 
+              <img src="${obj.user.avatars}">
+            </div>
             <h5>${obj.user.name}</h5>
           </div>   
           <h5 class="tweet-id">${obj.user.handle}</h5>

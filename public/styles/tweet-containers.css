@@ -2,6 +2,7 @@
   border: 5px solid;
   flex-direction: column;
   margin-bottom: 15px;
+  padding: 1em;
 }
 
 .tweet-header {
@@ -12,32 +13,22 @@
 
 .identity {
   display: flex;
-  width: 200px;
   justify-content: space-around;
-  /* border: 1px dashed blue; */
+  align-items: center;
 }
 
-footer {
+.tweet-container footer {
   border-top: 5px solid #5a5a5a;
   display: flex;
   justify-content: space-between;
 }
-
-.counterErr {
+.tweet-container footer i:hover {
   color: red;
 }
 
-tweet-container footer div {
-  color: red;
+.identity-img {
+  min-width: 50px;
 }
-
-.tweet-id {
-  padding-right: 25px;
-}
-
-.fas fa-flag {
-  color: red;
-}
-.footer {
-  padding-left: 15px;
+.identity-img img {
+  width: 90%;
 }

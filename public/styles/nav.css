@@ -1,28 +1,8 @@
-/* . nav {
-  height: 120px;
-  border: 1px solid red;
-  background-color: #4056a1;
-  color: #fff;
-  padding: 1.5em;
-  display: flex;
-  justify-content: space-between; */
-
-/* position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1; */
-
-/* .nav-details {
-  position: fixed;
-  top: 0;
-  width: 100%;
-} */
-
 .nav {
   display: flex;
   flex: 1;
   height: 120px;
-  background-color: #c79f00;
+  background-color: #4056a1;
   background-image: (
     "https://www.transparenttextures.com/patterns/asfalt-dark.png%22"
   );
@@ -41,11 +21,6 @@
   z-index: 1;
 }
 
-span {
-  color: #fff;
-}
-/* border: 1px solid; */
-
 .text-right {
   display: flex;
   flex-direction: column;
@@ -54,11 +29,6 @@ span {
   margin-right: 40px;
   color: #fff;
 }
-
-/* .nav {
-  display: flex;
-  flex: 1;
-} */
 
 i.fas.fa-angle-double-down {
   font-size: 24px;
@@ -77,14 +47,8 @@ i.fas.fa-angle-double-down {
   }
 }
 
-/* fas fa-angle-double-down {
-  color: red;
-  display: flex;
-  justify-content: center;
-} */
-
-/* fa, .fas a:hover: {
-  display: flex;
-  justify-content: center;
-  color: red;
-} */
+@media only screen and (max-width: 768px) {
+  .nav {
+    background-color: #c79f00;
+  }
+}
