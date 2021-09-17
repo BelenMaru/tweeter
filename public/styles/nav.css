@@ -1,7 +1,14 @@
 .nav {
   display: flex;
-  flex: 1;
+  flex: 1 1 100%;
+
+  margin-top: -50px;
+  /* height: 120px; */
+  width: 100%;
+  position: fixed;
+
   height: 120px;
+  position: fixed;
   background-color: #4056a1;
   background-image: (
     "https://www.transparenttextures.com/patterns/asfalt-dark.png%22"

@@ -26,9 +26,15 @@
   color: red;
 }
 
+.tweet-container:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .identity-img {
   min-width: 50px;
 }
 .identity-img img {
   width: 90%;
+}
+.counterErr {
+  color: red;
 }

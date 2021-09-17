@@ -9,7 +9,7 @@
   if(counter < 0){
     // $(this).siblings().children('.counter').addClass('counterErr')
     $('output').addClass('counterErr');
-    $('output').text(Math.abs(counter) + " overlimit" ); // takes negative value and positiveve
+    $('output').text(` ${counter}`); // takes negative value and positiveve
   } else {
     // $(this).siblings().children('.counter').removeClass('counterErr')
     $('output').removeClass('counterErr');

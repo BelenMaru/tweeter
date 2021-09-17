@@ -8,8 +8,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 450px;
 
-  margin: 1em 2em 2em 0.5em;
+  margin: 3em 2em 2em 0.5em;
 }
 
 .header-text {
@@ -18,7 +19,7 @@
 
 .header-img {
   min-width: 100px;
-  width: 80%;
+  width: 50%;
 }
 .header-img img {
   width: 100%;

@@ -30,6 +30,9 @@ $(document).ready(function () {
   //   },
   // ];
   const renderTweets = function (tweets) {
+    $('#tweets-container').html('');
+    // $('#tweet-text').empty()
+    $('textarea').val('');
     // loops through tweets
     // calls createTweetElement for each tweet
     // takes return value and appends it to the tweets container 
@@ -70,12 +73,23 @@ $(document).ready(function () {
 
   $('form').submit(function(event) {
     event.preventDefault();
-    if ($('textare#tweet-text').val());
+    // if ($('textare#tweet-text').val());
     const tweetText = $('textarea#tweet-text').val();
     // console.log(tweetText);
     //  console.log(tweetText);
+
+    const $errorDiv = $('#error')
+    
+
+      if (tweetText.length === 0) {
+      // alert('Tweet should be between 1 and 140');
+      $errorDiv.text('Tweet should be between 1 and 140 !');
+      return;
+    }
+
     if (tweetText.length > 140)  {
-      alert();
+      // alert('Tweet should not be more than 140 ' );
+      $errorDiv.text('Tweet should not be more than 140 !')
       return;
     }
     
@@ -86,6 +100,7 @@ $(document).ready(function () {
        //Jquery- need data to serialize
      })
      .then(function(response) {
+      
        loadTweets();
       // console.log("response from line 95----", response);
     }).catch(function(err) {

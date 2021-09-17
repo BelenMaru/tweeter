@@ -32,12 +32,18 @@ label {
 .app-container {
   display: flex;
   margin: 2em;
+  padding-top: 90px;
 }
 
-.container{
+.container {
   min-width: 60%;
 }
 
+#error {
+  font-size: 25px;
+  color: red;
+  font-weight: 600;
+}
 @media only screen and (max-width: 768px) {
   .app-container {
     flex-direction: column;
